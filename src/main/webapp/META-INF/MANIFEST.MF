@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Export-Package: com.thingtrack.dontpush.openlayers.test;version="0.0.1
+ .SNAPSHOT";uses:="com.vaadin,com.vaadin.ui",com.thingtrack.dontpush.o
+ penlayers.test.servlet;version="0.0.1.SNAPSHOT";uses:="com.vaadin,com
+ .vaadin.terminal.gwt.server,com.vaadin.ui,javax.servlet,javax.servlet
+ .http"
+Unversioned-Imports: *
+Bundle-Classpath: WEB-INF/classes,WEB-INF/lib/dontpush-addon-ozonelaye
+ r-0.3.8.jar,WEB-INF/lib/atmosphere-gwt-client-0.8.1.jar,WEB-INF/lib/a
+ tmosphere-gwt-server-0.8.1.jar,WEB-INF/lib/atmosphere-gwt-common-0.8.
+ 1.jar,WEB-INF/lib/atmopshere-gwt-poll-0.8.1.jar,WEB-INF/lib/atmospher
+ e-runtime-0.8.1.jar,WEB-INF/lib/atmosphere-compat-jbossweb-0.8.1.jar,
+ WEB-INF/lib/atmopshere-compat-tomcat-0.8.1.jar,WEB-INF/lib/atmopshere
+ -compat-jetty-0.8.1.jar,WEB-INF/lib/atmopshere-compat-weblogic-0.8.1.
+ jar,WEB-INF/lib/gwt-user-2.3.0.jar,WEB-INF/lib/gwt-servlet-2.3.0.jar
+Built-By: carlos
+Bundle-Name: DontPush and OpenLayers Addon Test
+Import-Library: org.springframework.spring;version="[3.0.5.RELEASE,3.0
+ .5.RELEASE]"
+Created-By: Apache Maven
+Web-ContextPath: dontpush
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Build-Jdk: 1.6.0_26
+Bundle-Version: 0.0.1.SNAPSHOT
+Bundle-ManifestVersion: 2
+Import-Package: VAADIN.themes.konekti;version="[0.0,1)",VAADIN.widgets
+ ets.com.thingtrack.konekti.view.component.gwt.KonektiWidgetSet;versio
+ n="[0.0,1)",com.vaadin,com.vaadin.event,com.vaadin.service,com.vaadin
+ .terminal,com.vaadin.terminal.gwt.server,com.vaadin.ui,javax.servlet,
+ javax.servlet.http,org.apache.log4j,org.slf4j;version="[1.6.1,2)",org
+ .slf4j.helpers;version="[1.6.1,2)",org.slf4j.impl;version="[1.6.1,2)"
+ ,org.slf4j.spi;version="[1.6.1,2)",org.vaadin.vol
+Bundle-SymbolicName: com.thingtrack.dontpush.openlayers.test
+Archiver-Version: Plexus Archiver
+
